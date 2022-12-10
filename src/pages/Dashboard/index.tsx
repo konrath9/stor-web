@@ -10,6 +10,7 @@ import Home from '../Home';
 import TeacherProfil from '../TeacherProfil';
 import TeacherForm from '../TeacherForm';
 import Classroom from '../Classroom';
+import MyClasses from '../MyClasses';
 
 import './styles.css'
 
@@ -32,6 +33,7 @@ function Dashboard() {
                                 <Classroom />
                             </SocketProvider>
                         </Route>
+                        <Route path="/my-classes" exact component={MyClasses}></Route>
                     </Switch>
                 </div>
             </div>

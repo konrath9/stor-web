@@ -17,8 +17,8 @@ function SideBar() {
         <div id="dashboard-sidebar">
             <div className="logo-content btn">
                 <Link to="/">
-                    <img src={LogoIcon} alt="Stor" className="logo-icon icon" />
-                    <h2 className="title">stor</h2>
+                    <img src={LogoIcon} alt="PROFES" className="logo-icon icon" />
+                    <h2 className="title">Profes</h2>
                 </Link>
             </div>
             <div className="menu">
